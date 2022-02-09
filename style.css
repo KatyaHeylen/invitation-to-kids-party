@@ -10,8 +10,11 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url("images/background1.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #82aa38;
+    overflow-x: hidden;
 }
 h1 {
     margin: 2%;
@@ -21,17 +24,28 @@ h1 {
     text-shadow: 5px 5px 5px grey;
 
 }
+a {
+    text-decoration: none;
+}
 
+#stress {
+    font-size: 5vh;
+}
 #pawty {
-
+    margin: auto 8%;
+    background-image: url("images/pawty1.png");
+    width: 40%;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 section {
     position: relative;
     margin: 2vw;
     padding: 2vw;
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: auto;
     border: 1px solid papayawhip;
     border-radius: 20px;
     background: rgba(245, 245, 245, 0.4);
@@ -46,21 +60,72 @@ section {
 
 }
 
+p {
+    margin-top: 2%;
+}
+
 #portrait {
     position: absolute;
-    margin-right: 10%;
+    right: 5%;
+    top: 5%;
     background-image: url("images/portrait.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 15vw;
-    height: 15vw;
+    width: 14vw;
+    height: 14vw;
     border-radius: 50%;
-    border: 1px solid whitesmoke;
+    border: 10px solid whitesmoke;
 }
 
 strong {
     color: darkred;
     font-weight: 600;
+    margin-top: 2%;
 }
 
+#name {
+    margin-left: 80%;
+    font-size: 4vh;
+}
+
+@media only screen and (max-width: 500px){
+    section {
+        position: absolute;
+        width: 94.6%;
+        top: 54.7%;
+        font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        height: auto;
+    }
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("images/background.jpg");
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #82aa38;
+    }
+    h1 {
+        color: whitesmoke;
+        font-size: 5.3vh;
+        align-content: center;
+        top: 40%;
+        left: 5%;
+        position: absolute;
+    }
+    #pawty {
+        position: absolute;
+        width: 80%;
+        height: 20%;
+        top: 47%;
+    }
+
+    #portrait {
+        width: 150px;
+        height: 150px;
+        top: 2%;
+    }
+}
 
