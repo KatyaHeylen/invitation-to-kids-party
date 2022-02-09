@@ -43,6 +43,7 @@ body {
 
 a {
     text-decoration: none;
+    color: darkred;
 }
 
 #stress {
@@ -104,6 +105,7 @@ strong {
     margin-top: -1.8vh;
     margin-left: 7.9vw;
     width: 28vw;
+
 }
 
 
@@ -111,8 +113,8 @@ strong {
     section {
         position: absolute;
         width: 94.6%;
-        top: 54.7%;
-        font-size: 18px;
+        top: 75%;
+        font-size: 25px;
         display: flex;
         justify-content: flex-start;
         height: auto;
@@ -121,7 +123,7 @@ strong {
     body {
         width: 100vw;
         height: 100vh;
-        background-image: url("images/background.jpg");
+        background-image: url("images/background2.jpg");
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat;
@@ -130,30 +132,31 @@ strong {
 
     h1 {
         color: whitesmoke;
-        font-size: 5vh;
+        font-size: 6.6vh;
         align-content: center;
-        top: 40%;
-        left: 5%;
+        top: 66%;
+        left: 1.8%;
         position: absolute;
     }
 
     #pawty {
         position: absolute;
-        width: 95.7%;
-        height: 10%;
-        top: 47%;
+        width: 42.1%;
+        height: 9.9%;
+        top: 67.2%;
+        left: 54.3%
     }
 
     #portrait {
-        width: 140px;
-        height: 140px;
-        top: 2%;
-        left: 2%
+        width: 250px;
+        height: 250px;
+        top: 10.2%;
+        left: 6.1%;
     }
 
     #bone {
-        margin-top: 147.2vh;
-        margin-left: 11vw;
+        margin-top: 157.2vh;
+        margin-left: 11.9vw;
         width: 70vw;
 
     }
