@@ -16,35 +16,45 @@ body {
     background-color: #82aa38;
     overflow-x: hidden;
 }
-h1 {
+
+#topPart {
+    width: 100%;
+}
+
+    h1 {
     margin: 2%;
     font-family: 'Fuzzy Bubbles', cursive;
     color: red;
-    font-size: 12vh;
+    font-size: 12.8vh;
     text-shadow: 5px 5px 5px grey;
+    }
 
+    #pawty {
+        /*margin-top: -17.5vh;*/
+        margin-left: 2vw;
+        background-image: url(images/pawty1.png);
+        width: 59.7vh;
+        height: 11.4vh;
+        background-repeat: no-repeat;
+        background-size: contain;
 }
+
+
+
 a {
     text-decoration: none;
 }
 
 #stress {
-    font-size: 5vh;
+    font-size: 3vh;
 }
-#pawty {
-    margin: auto 8%;
-    background-image: url("images/pawty1.png");
-    width: 40%;
-    height: 20%;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
 
 section {
     position: relative;
     margin: 2vw;
     padding: 2vw;
-    width: 45%;
+    width: 40%;
     height: auto;
     border: 1px solid papayawhip;
     border-radius: 20px;
@@ -56,6 +66,7 @@ section {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+
     /*align-items: center;*/
 
 }
@@ -66,8 +77,8 @@ p {
 
 #portrait {
     position: absolute;
-    right: 5%;
-    top: 5%;
+    right: 46.9vw;
+    top: 31.8vh;
     background-image: url("images/portrait.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,20 +86,28 @@ p {
     height: 14vw;
     border-radius: 50%;
     border: 10px solid whitesmoke;
+    z-index: 1;
 }
 
 strong {
     color: darkred;
     font-weight: 600;
-    margin-top: 2%;
+    /*margin-top: 2%;*/
 }
 
 #name {
-    margin-left: 80%;
+    margin-left: 70%;
     font-size: 4vh;
 }
 
-@media only screen and (max-width: 500px){
+#bone {
+    margin-top: -1.8vh;
+    margin-left: 7.9vw;
+    width: 28vw;
+}
+
+
+@media (max-width: 900px) {
     section {
         position: absolute;
         width: 94.6%;
@@ -98,6 +117,7 @@ strong {
         justify-content: flex-start;
         height: auto;
     }
+
     body {
         width: 100vw;
         height: 100vh;
@@ -107,25 +127,89 @@ strong {
         background-repeat: no-repeat;
         background-color: #82aa38;
     }
+
     h1 {
         color: whitesmoke;
-        font-size: 5.3vh;
+        font-size: 5vh;
         align-content: center;
         top: 40%;
         left: 5%;
         position: absolute;
     }
+
     #pawty {
         position: absolute;
-        width: 80%;
-        height: 20%;
+        width: 95.7%;
+        height: 10%;
         top: 47%;
     }
 
     #portrait {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         top: 2%;
+        left: 2%
+    }
+
+    #bone {
+        margin-top: 147.2vh;
+        margin-left: 11vw;
+        width: 70vw;
+
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        position: absolute;
+        width: 90.5%;
+        top: 56vh;
+        font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        height: auto;
+        right: 2vw;
+        left: 2vw;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("images/background.jpg");
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #82aa38;
+    }
+
+    h1 {
+        color: whitesmoke;
+        font-size: 5vh;
+        align-content: center;
+        top: 40%;
+        left: 5%;
+        position: absolute;
+    }
+
+    #pawty {
+        position: absolute;
+        width: 95.7%;
+        height: 10%;
+        top: 47%;
+    }
+
+    #portrait {
+        width: 140px;
+        height: 140px;
+        top: 2%;
+        left: 2%
+    }
+
+    #bone {
+        margin-top: 132.8vh;
+        margin-left: 12.2vw;
+        width: 70vw;
+
     }
 }
 
