@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Klee+One:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -13,3 +13,54 @@ body {
     background-position: center;
     background-size: cover;
 }
+h1 {
+    margin: 2%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: red;
+    font-size: 12vh;
+    text-shadow: 5px 5px 5px grey;
+
+}
+
+#pawty {
+
+}
+
+section {
+    position: relative;
+    margin: 2vw;
+    padding: 2vw;
+    width: 50%;
+    height: 50%;
+    border: 1px solid papayawhip;
+    border-radius: 20px;
+    background: rgba(245, 245, 245, 0.4);
+    font-size: max(1.3vw, 0.75rem);
+    font-family: 'Klee One', cursive;
+    color: navy;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /*align-items: center;*/
+
+}
+
+#portrait {
+    position: absolute;
+    margin-right: 10%;
+    background-image: url("images/portrait.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+strong {
+    color: darkred;
+    font-weight: 600;
+}
+
+
