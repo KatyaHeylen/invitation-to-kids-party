@@ -4,7 +4,6 @@ gsap.to("#pawty", {duration: 2, y: -80, scale: 1.3, repeat: 300, yoyo: true});
 
 gsap.to("#portrait", {duration: 2, rotate: 360});
 
-
 let bone = document.getElementById("bone");
 
 bone.addEventListener("mouseover", () => {

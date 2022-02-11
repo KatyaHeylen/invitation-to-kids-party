@@ -7,7 +7,7 @@ invisibleArea.addEventListener("mouseout", hideBubbles);
 
 portrait.addEventListener("mouseover", changeImage);
 
-portrait.addEventListener("click", changeImageBack);
+portrait.addEventListener("click", changeImage);
 
 portrait.addEventListener("mouseout", changeImageBack);
 
