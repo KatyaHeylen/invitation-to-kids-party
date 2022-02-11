@@ -80,9 +80,6 @@ p {
     position: absolute;
     right: 46.9vw;
     top: 31.8vh;
-    /*background-image: url("images/portrait.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
     width: 14vw;
     height: 14vw;
     border-radius: 50%;
@@ -140,6 +137,23 @@ strong {
     top: 2%;
 }
 
+#footprint {
+    position: absolute;
+    background-image: url(images/footstamp.png);
+    width: 20vh;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 55vw;
+    top: 130vh;
+}
+
+@media (max-width: 1500px) {
+    #footprint {
+        display: none;
+    }
+}
+
 
 @media (max-width: 900px) {
     section {
@@ -188,7 +202,7 @@ strong {
     }
 
     #bone {
-        margin-top: 159.5vh;
+        margin-top: 169.5vh;
         margin-left: 13.9vw;
         width: 70vw;
 
@@ -265,7 +279,7 @@ strong {
     }
 
     #bone {
-        margin-top: 132.8vh;
+        margin-top: 147.2vh;
         margin-left: 12.2vw;
         width: 70vw;
 
@@ -291,6 +305,9 @@ strong {
         height: 120px;
         left: 70%;
         top: 5%;
+    }
+    #footprint {
+        display: none;
     }
 }
 
