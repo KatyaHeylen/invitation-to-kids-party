@@ -24,14 +24,14 @@ body {
     h1 {
     margin: 2%;
     font-family: 'Fuzzy Bubbles', cursive;
-    color: #af1c22;
+        color: red;
+    /*color: #af1c22;*/
     font-size: 12.8vh;
     text-shadow: 5px 5px 5px grey;
     }
 
     #pawty {
-        /*margin-top: -17.5vh;*/
-        margin-left: 2vw;
+        margin-left: 5vw;
         background-image: url(images/pawty1.png);
         width: 59.7vh;
         height: 11.4vh;
@@ -80,14 +80,18 @@ p {
     position: absolute;
     right: 46.9vw;
     top: 31.8vh;
-    background-image: url("images/portrait.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image: url("images/portrait.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
     width: 14vw;
     height: 14vw;
     border-radius: 50%;
     border: 10px solid whitesmoke;
     z-index: 1;
+
+}
+#portrait:hover {
+    cursor: pointer;
 }
 
 strong {
