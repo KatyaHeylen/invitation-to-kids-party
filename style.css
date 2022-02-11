@@ -148,12 +148,6 @@ strong {
     top: 130vh;
 }
 
-@media (max-width: 1500px) {
-    #footprint {
-        display: none;
-    }
-}
-
 
 @media (max-width: 900px) {
     section {
