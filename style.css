@@ -120,16 +120,16 @@ strong {
 
 .bubble1 {
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 74%;
-    top: 65%;
+    width: 20vw;
+    height: auto;
+    left: 65%;
+    top: 80%;
 }
 
 .bubble2 {
     position: absolute;
-    width: 220px;
-    height: 220px;
+    width: 20vw;
+    height: auto;
     left: 80%;
     top: 2%;
 }
